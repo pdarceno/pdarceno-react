@@ -1,5 +1,5 @@
 {
-  "homepage": "http://pdarceno.github.io/pdarceno-react.github.io",
+  "homepage": "http://pdarceno.github.io/pdarceno-react-portfolio",
   "name": "prosy-react-portfolio",
   "version": "0.1.0",
   "private": true,
@@ -38,5 +38,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
   }
 }
