@@ -1,18 +1,15 @@
 import React from 'react'; // Import the Component component from React
 import {Link} from 'react-router-dom'; // Import the Link componen
 
-function ObjectiveThumbnail(props) {
+function ObjectiveComponent(props) {
 	return (
 		<div className="objective">
-			<Link to="">
-				<div className="objective-image">
-					<img src="" alt="Objective Image"/>
-				</div>
-				<div className="objective-title">""</div>
-				<div className="objective-category">""</div>
-			</Link>
+			<div className="objective-image">
+				<img src={props.image} alt={props.description}/>
+			</div>
+			<div className="objective-description">{props.description}</div>
 		</div>
 	);
 }
 
-export default ObjectiveThumbnail;
+export default ObjectiveComponent;
