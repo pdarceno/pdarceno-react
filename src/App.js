@@ -19,12 +19,12 @@ function App() {
 			<div className="App">
 				<Header />
 
-				<Route path="/" component={Home} />
-				<Route path="/objectives" component={Objectives} />
-				<Route path="/experience" component={Experience} />
-				<Route exact path="/background" component={Background} />
-				<Route path="/skills" component={Skills} />
-				<Route path="/contacts" component={Contacts} />
+				<Route path="/pdarceno-react" component={Home} />
+				<Route path="/pdarceno-react/objectives" component={Objectives} />
+				<Route path="/pdarceno-react/experience" component={Experience} />
+				<Route exact path="/pdarceno-react/background" component={Background} />
+				<Route path="/pdarceno-react/skills" component={Skills} />
+				<Route path="/pdarceno-react/contacts" component={Contacts} />
 			</div>
 		</BrowserRouter>
 	);
