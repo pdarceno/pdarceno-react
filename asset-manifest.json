@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/pdarceno-react/static/css/main.d80f1329.chunk.css",
-    "main.js": "/pdarceno-react/static/js/main.4df29683.chunk.js",
-    "main.js.map": "/pdarceno-react/static/js/main.4df29683.chunk.js.map",
+    "main.js": "/pdarceno-react/static/js/main.19ac15ee.chunk.js",
+    "main.js.map": "/pdarceno-react/static/js/main.19ac15ee.chunk.js.map",
     "runtime-main.js": "/pdarceno-react/static/js/runtime-main.1f5fbeca.js",
     "runtime-main.js.map": "/pdarceno-react/static/js/runtime-main.1f5fbeca.js.map",
     "static/js/2.9199799b.chunk.js": "/pdarceno-react/static/js/2.9199799b.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.1f5fbeca.js",
     "static/js/2.9199799b.chunk.js",
     "static/css/main.d80f1329.chunk.css",
-    "static/js/main.4df29683.chunk.js"
+    "static/js/main.19ac15ee.chunk.js"
   ]
 }
