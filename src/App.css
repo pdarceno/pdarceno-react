@@ -7,6 +7,44 @@
   pointer-events: none;
 }
 
+/*navbar*/
+.navigation-sub {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* use a for Links */
+.navigation-sub a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navigation-sub a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.navigation-sub a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #fff;
+}
+/*navbar*/
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
