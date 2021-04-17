@@ -1,7 +1,7 @@
 // App.jsx
 
 import React from 'react';
-import logo from './logo.svg';
+// import logo from './logo.svg';
 // Import the BrowserRouter, Route and Link components
 import { HashRouter, Route } from 'react-router-dom'; 
 import Header from './components/header/Header'; 
@@ -18,13 +18,14 @@ function App() {
 		<HashRouter basename='/'>
 			<div className="App">
 				<Header />
-
-				<Route path="/" component={Home} />
-				<Route path="/objectives" component={Objectives} />
-				<Route path="/experience" component={Experience} />
-				<Route exact path="/background" component={Background} />
-				<Route path="/skills" component={Skills} />
-				<Route path="/contacts" component={Contacts} />
+				<div className="contents">
+					<Route path="/" component={Home} />
+					<Route path="/objectives" component={Objectives} />
+					<Route path="/experience" component={Experience} />
+					<Route exact path="/background" component={Background} />
+					<Route path="/skills" component={Skills} />
+					<Route path="/contacts" component={Contacts} />
+				</div>
 			</div>
 		</HashRouter>
 	);

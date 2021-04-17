@@ -30,7 +30,7 @@ function Experience(props) {
 				title="Sports Management Website"
 				company="University of the Philippines"
 			/>
-			<company
+			<ExperienceComponent
 				image=""
 				title="Internship"
 				company="PHIVOLCS"

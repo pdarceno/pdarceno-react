@@ -1,19 +1,52 @@
-import React from "react";
-
-// Import the BrowserRouter, Route and Link components
-import { HashRouter, Link } from 'react-router-dom'; 
+import React, { useState } from "react";
+// Import the BrowserRouter, Route and NavLink components
+import { HashRouter } from 'react-router-dom'; 
+import HeaderComponent from './HeaderComponent.js';
+import { ReactComponent as CloseMenu } from "../assets/close.svg";
+import { ReactComponent as MenuIcon } from "../assets/menu.svg";
 
 function Header(props) {
+	const [clicked, setClicked] = useState(false);
+	
+	const handleClick = () => setClicked(!clicked);
+	
+	const closeMobileMenu = () => setClicked(false);
+
 	return (
 		<HashRouter basename="/">
 			<div className="navigation">
-				<div className="navigation-sub">
-					<Link to="/" className="item">Start</Link>
-					<Link to="/objectives" className="item">Objectives</Link>
-					<Link to="/experience" className="item">Experience</Link>
-					<Link to="/background" className="item">Education & Background</Link>
-					<Link to="/skills" className="item">Skills & Abilities</Link>
-					<Link to="/contacts" className="item">Contacts</Link>
+				<div className={clicked ? "navigation-sub navigation-active" : "navigation-sub"} onClick={closeMobileMenu}>
+					<HeaderComponent
+						text="Start"
+						path="/" 
+					/>
+					<HeaderComponent
+						text="Objectives"
+						path="/objectives"
+					/>
+					<HeaderComponent
+						text="Experience"
+						path="/experience"
+					/>
+					<HeaderComponent
+						text="Education & Background"
+						path="/background"
+					/>
+					<HeaderComponent
+						text="Skills & Abilities"
+						path="/skills"
+					/>
+					<HeaderComponent
+						text="Contacts"
+						path="/contacts"
+					/>
+				</div>
+				<div className="mobile-menu" onClick={handleClick}>
+					{clicked ? (
+						<CloseMenu className="menu-icon" />
+							) : (
+						<MenuIcon className="menu-icon" />
+					)}
 				</div>
 			</div>
 		</HashRouter>
