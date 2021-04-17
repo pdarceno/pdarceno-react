@@ -1,23 +1,28 @@
 {
   "files": {
-    "main.css": "/pdarceno-react/static/css/main.d80f1329.chunk.css",
-    "main.js": "/pdarceno-react/static/js/main.59c99379.chunk.js",
-    "main.js.map": "/pdarceno-react/static/js/main.59c99379.chunk.js.map",
-    "runtime-main.js": "/pdarceno-react/static/js/runtime-main.1f5fbeca.js",
-    "runtime-main.js.map": "/pdarceno-react/static/js/runtime-main.1f5fbeca.js.map",
-    "static/js/2.d0369c15.chunk.js": "/pdarceno-react/static/js/2.d0369c15.chunk.js",
-    "static/js/2.d0369c15.chunk.js.map": "/pdarceno-react/static/js/2.d0369c15.chunk.js.map",
-    "static/js/3.122469db.chunk.js": "/pdarceno-react/static/js/3.122469db.chunk.js",
-    "static/js/3.122469db.chunk.js.map": "/pdarceno-react/static/js/3.122469db.chunk.js.map",
+    "main.css": "/pdarceno-react/static/css/main.9c9b2122.chunk.css",
+    "main.js": "/pdarceno-react/static/js/main.18b31d42.chunk.js",
+    "main.js.map": "/pdarceno-react/static/js/main.18b31d42.chunk.js.map",
+    "runtime-main.js": "/pdarceno-react/static/js/runtime-main.53792a05.js",
+    "runtime-main.js.map": "/pdarceno-react/static/js/runtime-main.53792a05.js.map",
+    "static/css/2.b40c9608.chunk.css": "/pdarceno-react/static/css/2.b40c9608.chunk.css",
+    "static/js/2.856ae52d.chunk.js": "/pdarceno-react/static/js/2.856ae52d.chunk.js",
+    "static/js/2.856ae52d.chunk.js.map": "/pdarceno-react/static/js/2.856ae52d.chunk.js.map",
+    "static/js/3.589dfa06.chunk.js": "/pdarceno-react/static/js/3.589dfa06.chunk.js",
+    "static/js/3.589dfa06.chunk.js.map": "/pdarceno-react/static/js/3.589dfa06.chunk.js.map",
     "index.html": "/pdarceno-react/index.html",
-    "static/css/main.d80f1329.chunk.css.map": "/pdarceno-react/static/css/main.d80f1329.chunk.css.map",
-    "static/js/2.d0369c15.chunk.js.LICENSE.txt": "/pdarceno-react/static/js/2.d0369c15.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/pdarceno-react/static/media/logo.6ce24c58.svg"
+    "static/css/2.b40c9608.chunk.css.map": "/pdarceno-react/static/css/2.b40c9608.chunk.css.map",
+    "static/css/main.9c9b2122.chunk.css.map": "/pdarceno-react/static/css/main.9c9b2122.chunk.css.map",
+    "static/js/2.856ae52d.chunk.js.LICENSE.txt": "/pdarceno-react/static/js/2.856ae52d.chunk.js.LICENSE.txt",
+    "static/media/close.59cbbf33.svg": "/pdarceno-react/static/media/close.59cbbf33.svg",
+    "static/media/font-awesome.min.css": "/pdarceno-react/static/media/fontawesome-webfont.f691f37e.woff",
+    "static/media/menu.5b253389.svg": "/pdarceno-react/static/media/menu.5b253389.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.1f5fbeca.js",
-    "static/js/2.d0369c15.chunk.js",
-    "static/css/main.d80f1329.chunk.css",
-    "static/js/main.59c99379.chunk.js"
+    "static/js/runtime-main.53792a05.js",
+    "static/css/2.b40c9608.chunk.css",
+    "static/js/2.856ae52d.chunk.js",
+    "static/css/main.9c9b2122.chunk.css",
+    "static/js/main.18b31d42.chunk.js"
   ]
 }
