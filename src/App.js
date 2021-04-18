@@ -19,12 +19,12 @@ function App() {
 			<div className="App">
 				<Header />
 				<div className="contents">
-					<Route path="/" component={Home} />
-					<Route path="/objectives" component={Objectives} />
-					<Route path="/experience" component={Experience} />
+					<Route exact path="/" component={Home} />
+					<Route exact path="/objectives" component={Objectives} />
+					<Route exact path="/experience" component={Experience} />
 					<Route exact path="/background" component={Background} />
-					<Route path="/skills" component={Skills} />
-					<Route path="/contacts" component={Contacts} />
+					<Route exact path="/skills" component={Skills} />
+					<Route exact path="/contacts" component={Contacts} />
 				</div>
 			</div>
 		</HashRouter>

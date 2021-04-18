@@ -63,7 +63,7 @@ p {
 /*content*/
 
 .contents {
-	margin-top: 50px;
+	margin-top: 70px;
 }
 
 /*containers*/
@@ -89,16 +89,58 @@ p {
 }
 
 .objective-image {
-	/*margin-top: 16px;*/
+	background-color: #fed136;
+	border-radius: 50%;
+	position: relative;
+	display: inline-block;
+	width: 8em;
+	height: 8em;
+	line-height: 8em;
+	vertical-align: middle
 }
-
-.objective-image .background {
-}
-
 .objective-image .content {
-	color: black;
-	/*width: 100%;*/
+	color: white;
 }
+/*objectives container*/
+
+/*experiences container*/
+.experiences {
+	padding: 2%;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	gap: 2%;
+	background-color: red;
+}
+.experience {
+	align-items: center;
+	justify-content: center;
+	width: 30%;
+	height: 250px;
+	display: block;
+	background-color: white;
+}
+
+.experience .experience-description {
+	padding: 0px;
+	font-size: 15px;
+}
+
+.experience-image {
+	background-color: #fed136;
+	border-radius: 10%;
+	position: relative;
+	display: inline-block;
+	width: 8em;
+	height: 8em;
+	line-height: 8em;
+	vertical-align: middle
+}
+.experience-image .content {
+	color: white;
+}
+/*objectives container*/
+/*contianers*/
 
 @media screen and (max-width: 680px) {
 	body {

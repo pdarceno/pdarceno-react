@@ -4,9 +4,9 @@ import React from 'react'; // Import the Component component from React
 function ObjectiveComponent(props) {
 	return (
 		<div className="objective">
-			<span className="objective-image fa-stack">
-				<i className={`content ${props.icon}`}></i>
-			</span>
+			<div className="objective-image">
+				<i className={`content fa-stack-2x ${props.icon}`}></i>
+			</div>
 			<div className="objective-description">{props.description}</div>
 		</div>
 	);
