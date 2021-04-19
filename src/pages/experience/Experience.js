@@ -7,32 +7,32 @@ function Experience(props) {
 			<h1>Experience</h1>
 			<div className="experiences">
 				<ExperienceComponent
-					image="assets/img/portfolio/Virnew.png"
+					image="/images/experiences/Virnew.png"
 					title="Virnew"
 					company="Mobile Optima Inc."
 				/>
 				<ExperienceComponent
-					image=""
+					image="/images/experiences/Virnew.png"
 					title="Virnew Booths"
 					company="Mobile Optima Inc."
 				/>
 				<ExperienceComponent
-					image=""
+					image="/images/experiences/UP.png"
 					title="Job Seeker Website"
 					company="University of the Philippines"
 				/>
 				<ExperienceComponent
-					image=""
+					image="/images/experiences/UP.png"
 					title="Interactive News Website"
 					company="University of the Philippines"
 				/>
 				<ExperienceComponent
-					image=""
+					image="/images/experiences/UP.png"
 					title="Sports Management Website"
 					company="University of the Philippines"
 				/>
 				<ExperienceComponent
-					image=""
+					image="/images/experiences/PHIVOLCS.png"
 					title="Internship"
 					company="PHIVOLCS"
 				/>

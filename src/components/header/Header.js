@@ -41,7 +41,7 @@ function Header(props) {
 						path="/contacts"
 					/>
 				</div>
-				<div className="mobile-menu" onClick={handleClick}>
+				<div className="mobile" onClick={handleClick}>
 					{clicked ? (
 						<CloseMenu className="menu-icon" />
 							) : (

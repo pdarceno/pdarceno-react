@@ -3,13 +3,15 @@ import React from 'react'; // Import the Component component from React
 
 function BackgroundComponent(props) {
 	return (
-		<div className="background">
-			<div className="background-image">
-				<img src={props.image} alt={props.company}/>
+		<li>
+			<div className="timeline-image"><img src="assets/img/about/pcc.jpg" alt="" /></div>
+			<div className="timeline-panel">
+				<div className="timeline-heading">
+					<h4>{props.duration}</h4>
+					<h4 className="subheading">{props.company}</h4>
+				</div>
 			</div>
-			<div className="background-company">{props.company}</div>
-			<div className="background-duration">{props.duration}</div>
-		</div>
+		</li>
 	);
 }
 

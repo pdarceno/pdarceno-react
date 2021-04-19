@@ -4,8 +4,13 @@ import React from 'react'; // Import the Component component from React
 function ObjectiveComponent(props) {
 	return (
 		<div className="objective">
-			<div className="objective-image">
-				<i className={`content fa-stack-2x ${props.icon}`}></i>
+			<div className="objective-image-container">
+				<div className="objective-image mobile">
+					<i className={`content ${props.icon}`}></i>
+				</div>
+				<div className="objective-image desktop">
+					<i className={`content fa-3x ${props.icon}`}></i>
+				</div>
 			</div>
 			<div className="objective-description">{props.description}</div>
 		</div>
