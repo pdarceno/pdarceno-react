@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/pdarceno-react/static/css/main.912648ae.chunk.css",
-    "main.js": "/pdarceno-react/static/js/main.8183a829.chunk.js",
-    "main.js.map": "/pdarceno-react/static/js/main.8183a829.chunk.js.map",
+    "main.css": "/pdarceno-react/static/css/main.a06e3ede.chunk.css",
+    "main.js": "/pdarceno-react/static/js/main.8b062370.chunk.js",
+    "main.js.map": "/pdarceno-react/static/js/main.8b062370.chunk.js.map",
     "runtime-main.js": "/pdarceno-react/static/js/runtime-main.53792a05.js",
     "runtime-main.js.map": "/pdarceno-react/static/js/runtime-main.53792a05.js.map",
     "static/css/2.b40c9608.chunk.css": "/pdarceno-react/static/css/2.b40c9608.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.589dfa06.chunk.js.map": "/pdarceno-react/static/js/3.589dfa06.chunk.js.map",
     "index.html": "/pdarceno-react/index.html",
     "static/css/2.b40c9608.chunk.css.map": "/pdarceno-react/static/css/2.b40c9608.chunk.css.map",
-    "static/css/main.912648ae.chunk.css.map": "/pdarceno-react/static/css/main.912648ae.chunk.css.map",
+    "static/css/main.a06e3ede.chunk.css.map": "/pdarceno-react/static/css/main.a06e3ede.chunk.css.map",
     "static/js/2.856ae52d.chunk.js.LICENSE.txt": "/pdarceno-react/static/js/2.856ae52d.chunk.js.LICENSE.txt",
     "static/media/close.59cbbf33.svg": "/pdarceno-react/static/media/close.59cbbf33.svg",
     "static/media/font-awesome.min.css": "/pdarceno-react/static/media/fontawesome-webfont.f691f37e.woff",
@@ -22,7 +22,7 @@
     "static/js/runtime-main.53792a05.js",
     "static/css/2.b40c9608.chunk.css",
     "static/js/2.856ae52d.chunk.js",
-    "static/css/main.912648ae.chunk.css",
-    "static/js/main.8183a829.chunk.js"
+    "static/css/main.a06e3ede.chunk.css",
+    "static/js/main.8b062370.chunk.js"
   ]
 }
