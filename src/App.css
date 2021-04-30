@@ -193,7 +193,66 @@ p {
 }
 /*background containers*/
 
-/*contianers*/
+/*skills container*/
+.skills {
+	padding: 2%;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	gap: 2%;
+}
+.skill {
+	background-color: transparent;
+	width: 300px;
+	height: 200px;
+	margin: auto;
+	border: 1px solid #f1f1f1;
+	perspective: 1000px;
+}
+
+.skill-inner {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	transition: transform 0.8s;
+	transform-style: preserve-3d;
+}
+
+.skill:hover .skill-inner {
+	transform: rotateY(180deg);
+}
+
+.skill-front, .skill-back {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.skill-front {
+	background-color: #bbb;
+	color: black;
+}
+
+.skill-back {
+	background-color: #555;
+	color: white;
+	transform: rotateY(180deg);
+}
+
+.skill-image {
+	width: 300px;
+	height: auto;
+}
+
+.skill-image .content {
+	color: white;
+}
+/*skills container*/
+
+/*containers*/
 
 @media screen and (max-width: 680px) {
 	body {
